@@ -1,0 +1,1 @@
+-keep interface com.github.softpal.** { *; }

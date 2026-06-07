@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loc_rationale">Please provide location permission</string>
+    <string name="loc_info">Info</string>
+    <string name="loc_warning">Warning</string>
+    <string name="loc_granted">Location permission granted.</string>
+    <string name="loc_denied">Location permission denied.</string>
+    <string name="gps_settings_title">GPS settings</string>
+    <string name="gps_settings_message">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="gps_settings_positive">Settings</string>
+    <string name="gps_settings_negative">Cancel</string>
+</resources>

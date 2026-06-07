@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Shared attrs declared once -->
+    <attr name="title"           format="string" />
+    <attr name="prefKey"         format="string" />
+    <attr name="noneSelectedText" format="string" />
+
+    <declare-styleable name="OneChoicePrefView">
+        <attr name="title" />
+        <attr name="prefKey" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiChoicePrefView">
+        <attr name="title" />
+        <attr name="prefKey" />
+        <attr name="noneSelectedText" />
+    </declare-styleable>
+
+</resources>

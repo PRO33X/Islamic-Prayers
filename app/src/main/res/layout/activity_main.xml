@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/location_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/country_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unavailable_info"
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:background="@drawable/rounded_left_corners" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/city_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unavailable_info"
+                    android:textSize="15sp"
+                    android:padding="10dp"
+                    android:background="@drawable/rounded_right_corners" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_time_hms"
+                android:textSize="24sp"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/gregorian_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_gregorian_date"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:id="@+id/hijri_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_hijri_date"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:background="@drawable/shape1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:padding="10dp"
+                        android:textColor="#263238"
+                        android:layout_marginStart="20dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/prayer_fajr"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:background="@drawable/shape1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:padding="10dp"
+                        android:textColor="#263238"
+                        android:layout_marginStart="20dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/prayer_sunrise"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:background="@drawable/shape1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:padding="10dp"
+                        android:textColor="#263238"
+                        android:layout_marginStart="20dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/prayer_zohr"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:background="@drawable/shape1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:padding="10dp"
+                        android:textColor="#263238"
+                        android:layout_marginStart="20dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/prayer_asr"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:background="@drawable/shape1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:padding="10dp"
+                        android:textColor="#263238"
+                        android:layout_marginStart="20dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/prayer_maghrib"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:background="@drawable/shape1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:padding="10dp"
+                        android:textColor="#263238"
+                        android:layout_marginStart="20dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/prayer_eshaa"
+                        android:textSize="18sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <TextView
+                        android:id="@+id/Fajr_Time"
+                        android:background="@drawable/shape2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:padding="10dp"
+                        android:textColor="#FAFAFA"
+                        android:gravity="center_horizontal"
+                        android:text="@string/default_time_hm"
+                        android:layout_marginEnd="30dp"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/Sunrise_Time"
+                        android:background="@drawable/shape2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:padding="10dp"
+                        android:textColor="#FAFAFA"
+                        android:gravity="center_horizontal"
+                        android:text="@string/default_time_hm"
+                        android:layout_marginEnd="30dp"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/Zohr_Time"
+                        android:background="@drawable/shape2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:padding="10dp"
+                        android:textColor="#FAFAFA"
+                        android:gravity="center_horizontal"
+                        android:text="@string/default_time_hm"
+                        android:layout_marginEnd="30dp"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/Asr_Time"
+                        android:background="@drawable/shape2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:padding="10dp"
+                        android:textColor="#FAFAFA"
+                        android:gravity="center_horizontal"
+                        android:text="@string/default_time_hm"
+                        android:layout_marginEnd="30dp"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/Maghrib_Time"
+                        android:background="@drawable/shape2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:padding="10dp"
+                        android:textColor="#FAFAFA"
+                        android:gravity="center_horizontal"
+                        android:text="@string/default_time_hm"
+                        android:layout_marginEnd="30dp"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/Eshaa_Time"
+                        android:background="@drawable/shape2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:padding="10dp"
+                        android:textColor="#FAFAFA"
+                        android:gravity="center_horizontal"
+                        android:text="@string/default_time_hm"
+                        android:layout_marginEnd="30dp"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/TTN_Prayer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="25dp"
+                android:paddingTop="8dp"
+                android:paddingRight="25dp"
+                android:paddingBottom="8dp"
+                android:textColor="#263238"
+                android:gravity="center_horizontal"
+                android:text="@string/default_time_hms"
+                android:textSize="18sp" />
+            <Button
+                android:visibility="gone"
+                android:id="@+id/ButtonQibla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/colored_button_orange"
+                android:text="Qibla Direction" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E39B3D</color>
+    <color name="colorPrimaryDark">#E3C74B</color>
+    <color name="colorAccent">#3D85C6</color>
+    <color name="colorControlHighlight">#F7BE58</color>
+    <color name="colorControlNormal">#534F8F</color>
+    <color name="ic_launcher_background">#1FA85B</color>
+
+    <!-- Used by Holo styles only -->
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorSecondary">#534F8F</color>
+</resources>

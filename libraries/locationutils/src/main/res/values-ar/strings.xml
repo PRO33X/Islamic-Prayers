@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loc_rationale">فضلاً قم بالسماح بإذن الموقع</string>
+    <string name="loc_info">""</string>
+    <string name="loc_warning">تحذير</string>
+    <string name="loc_granted">تم منح الوصول إلي الموقع</string>
+    <string name="loc_denied">تم رفض الوصول إلي الموقع.</string>
+    <string name="gps_settings_title">اعدادات GPS</string>
+    <string name="gps_settings_message">GPS غير مفعل. هل تريد تفعيله من قائمة الإعدادات؟</string>
+    <string name="gps_settings_positive">الإعدادات</string>
+    <string name="gps_settings_negative">إلغاء</string>
+</resources>

@@ -1,0 +1,31 @@
+plugins {
+	id 'com.android.library'
+}
+
+group = "com.github.softpal"
+
+android {
+	compileSdk = 33
+    namespace 'com.github.softpal'
+	defaultConfig {
+		minSdk = 14
+		targetSdk = 33
+	}
+
+	buildTypes {
+		release {
+			proguardFiles(
+				getDefaultProguardFile("proguard-android-optimize.txt"),
+				"proguard-rules.pro"
+			)
+		}
+	}
+	compileOptions {
+		sourceCompatibility = JavaVersion.VERSION_11
+		targetCompatibility = JavaVersion.VERSION_11
+	}
+}
+
+dependencies {
+    implementation("com.nabinbhandari.android:permissions:4.0.0")
+}

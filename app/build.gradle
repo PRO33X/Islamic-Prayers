@@ -1,0 +1,37 @@
+plugins {
+	id 'com.android.application'
+}
+
+android {
+	namespace = 'com.PRO33X.MyPrayers'
+	compileSdk = 34
+
+	defaultConfig {
+		applicationId = "com.PRO33X.MyPrayers"
+		minSdk = 14
+		targetSdk = 34
+		versionCode = 1
+		versionName = "1.0"
+
+		vectorDrawables {
+			useSupportLibrary = true
+		}
+	}
+
+	buildTypes {
+		release {
+			proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+		}
+	}
+
+	compileOptions {
+		sourceCompatibility = JavaVersion.VERSION_11
+		targetCompatibility = JavaVersion.VERSION_11
+	}
+}
+
+dependencies {
+    implementation("com.nabinbhandari.android:permissions:4.0.0")
+	implementation(project(":locationutils"))
+	implementation(project(":Islamic"))
+}
